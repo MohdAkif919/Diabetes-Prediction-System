@@ -62,17 +62,17 @@
 
 1. **Home Page**
    
-![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/6eacaaeb-7828-4fcc-b6e2-f25feb620aa7)
+![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/36deb62a-e437-4a81-8c76-ff87f5cedfe8)
 
 2. **Non-Diabetes Patient**
    
-![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/8a705dcf-6c86-4e6d-8f35-fa0154fe871e)
-![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/ea20aa49-9e07-46fa-987b-e9199eea1ab2)
+![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/5922b9b0-ba3a-4cbd-942a-29de6cf56926)
+![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/330a8fc7-b460-4dee-b859-5741c459845c)
 
 3. **Diabetes Patient**
    
-![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/fbf464ac-6d8c-4801-8e25-7d698e29130e)
-![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/c28bd052-fa34-41f6-a73c-e68f060199ed)
+![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/8fd88fcd-5afd-4429-b128-97c82cf03969)
+![image](https://github.com/MohdAkif919/Diabetes-Prediction-System/assets/58876003/5f5de7e1-5458-40c2-b567-a851da36c375)
 
 # Internship at MeriSKILL
 
