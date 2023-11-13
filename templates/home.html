@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Google Sans', sans-serif;
+            font-weight: bold;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-family: 'Google Sans', sans-serif;
+            font-weight: bold;
+            position: absolute;
+            left: 105px;
+            top: 225px;
+            color: #fff;
+            margin: 0;
+            font-size: 4vw;
+            line-height: 1.13;
+            animation: titleFadeInUp 0.5s ease-out;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        form {
+            font-family: 'Google Sans', sans-serif;
+            font-weight: bold;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 0.5s ease-out;
+            max-width: 350px;
+            width: 90%;
+            box-sizing: border-box;
+            margin: 15px;
+        }
+
+        label {
+            display: block;
+            margin: 8px 0;
+            font-weight: bold;
+            color: #333;
+            font-size: 13.5px;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin: 6px 0;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: border-color 0.3s;
+            font-size: 11px;
+        }
+
+        input:focus {
+            border-color: #3498db;
+        }
+
+        input[type="submit"] {
+            font-family: 'Google Sans', sans-serif;
+            font-weight: bold;
+            background-color: #2ecc71;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 13px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #27ae60;
+        }
+
+        @keyframes titleFadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                display: none;
+            }
+
+            form {
+                width: 100%; /* Adjusted width for smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Diabetes<br>
+        Prediction<br>
+        System
+    </h1>
+
+    <main>
+        <form action="{% url 'result' %}" method="get">
+            {% csrf_token %}
+
+            <label for="Pregnancies">Enter Pregnancies:</label>
+            <input type="text" name="Pregnancies" required>
+
+            <label for="Glucose">Enter Glucose:</label>
+            <input type="text" name="Glucose" required>
+
+            <label for="BloodPressure">Enter Blood Pressure:</label>
+            <input type="text" name="BloodPressure" required>
+
+            <label for="SkinThickness">Enter Skin Thickness:</label>
+            <input type="text" name="SkinThickness" required>
+
+            <label for="Insulin">Enter Insulin:</label>
+            <input type="text" name="Insulin" required>
+
+            <label for="BMI">Enter BMI:</label>
+            <input type="text" name="BMI" required>
+
+            <label for="DiabetesPedigreeFunction">Enter Diabetes Pedigree Function:</label>
+            <input type="text" name="DiabetesPedigreeFunction" required>
+
+            <label for="Age">Enter Age:</label>
+            <input type="text" name="Age" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+
+</html>
