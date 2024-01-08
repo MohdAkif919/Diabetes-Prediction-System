@@ -6,8 +6,7 @@
 
 - The predictive model, built with scikit-learn's logistic regression, boasts an accuracy score of approximately 0.81. To make the system accessible and user-friendly, I've deployed it using Django, creating a local server for seamless interaction.
 
-- Live Project Link: **[Click Here](https://diabetes.aniro.xyz)**
-- Video Presentation: **[Click here](https://youtu.be/DrdiS7D9UvI)**
+- Video Presentation: **[Click here]([https://youtu.be/DrdiS7D9UvI](https://youtu.be/zJNPENeaPIU?si=tAjK2tkOj7jOKZz1))**
 - Linkedin Post: **[Click here](https://www.linkedin.com/posts/mohdakif919_meriskillinternship-datascience-machinelearning-activity-7129893282431549440-WP79?utm_source=share&utm_medium=member_desktop)**
   
 # Features
